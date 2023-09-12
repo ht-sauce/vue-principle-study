@@ -3,11 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "Vue.js设计与实现 (霍春阳)，根据书本来学习vuejs",
   "packageManager": "pnpm@8.4.0",
   "workspaces": [
     "vue-principle",
     "play"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ht-sauce/vue-principle-study"
+  },
+  "author": "ht-sauce",
+  "license": "MIT",
   "scripts": {},
   "devDependencies": {
     "prettier": "^3.0.3",
