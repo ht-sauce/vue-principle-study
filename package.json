@@ -1,12 +1,16 @@
 {
-  "name": "vite-project",
+  "name": "vue-study",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-
-  },
+  "packageManager": "pnpm@8.4.0",
+  "workspaces": [
+    "vue-principle",
+    "play"
+  ],
+  "scripts": {},
   "devDependencies": {
+    "prettier": "^3.0.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.9"
   }
