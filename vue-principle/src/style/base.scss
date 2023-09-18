@@ -1,0 +1,9 @@
+$primary-color: #FF8367;
+.page-item {
+   cursor: pointer;
+   background: $primary-color;
+   &:hover {
+      background: darken($primary-color, 10%);
+      color: #fff;
+   }
+}
