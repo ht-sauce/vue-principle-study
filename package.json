@@ -15,7 +15,9 @@
   },
   "author": "ht-sauce",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "principle:dev": "pnpm --filter vue-principle dev"
+  },
   "devDependencies": {
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
