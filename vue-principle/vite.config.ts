@@ -1,15 +1,14 @@
-import {defineConfig} from 'vite'
+import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  plugins: [
-  ],
+  plugins: [],
   server: {
-    port: 8080
+    port: 8080,
   },
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
+  },
 })

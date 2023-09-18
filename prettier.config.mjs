@@ -1,5 +1,5 @@
 // 作为配置参考
-module.exports = {
+export default {
   printWidth: 100, //（默认值）单行代码超出 80 个字符自动换行
   semi: false, //（默认值）语句的末尾加上分号
   tabWidth: 2, //（默认值）一个 tab 键缩进相当于 2 个空格
